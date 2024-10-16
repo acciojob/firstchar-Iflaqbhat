@@ -1,5 +1,12 @@
 function firstChar(text) {
   // your code here
+	text=text.trim();
+	if(text==''||text==" "){
+		return '';
+	}
+	else{
+		return text.charAt(0);
+	}
 }
 
 // Do not change the code below
